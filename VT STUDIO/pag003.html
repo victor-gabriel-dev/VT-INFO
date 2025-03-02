@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>back end</title>
+    <link rel="stylesheet" href="back-end.css">
+    <style>
+        body main {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        border-radius: 10px 10px;
+    }
+    header {
+        background-color: rgb(0, 134, 251);
+        padding: 10px;
+        margin: 0px;
+        box-shadow: 5px 4px 2px 1px rgba(0, 0, 0, 0.336);
+    }
+
+    nav {
+        background-color: rgb(1, 221, 255);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.63);
+    }
+
+    nav > a {
+        text-decoration: underline;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+
+    }
+
+    
+    main {
+        background-color: white;
+        padding: 1px;
+        margin: 1px;
+        border-radius: 10px 10px;
+        box-shadow: 4px 4px 9px 0px rgba(11, 10, 10, 0.564);
+    }
+
+    article {
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        margin:0px;
+        box-shadow: 5px 4px 6px 4px rgba(0, 0, 0, 0.573);
+    }
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <!-- logo -->
+        <section class="box">
+            <h1 class="logo">VT INFO</h1>
+        </section>
+        <section class="box">
+            <nav class="box">
+                <ul class="box row">
+                    <li class="box">
+                        <a href="index.html" class="link  box">Home</a>
+                    </li>
+                    <li class="box">
+                        <a href="https://wa.link/uobug5" class="link box">Contato</a>
+                    </li>
+                    <li class="box">
+                        <a href="sobre.html" class="link box">Sobre</a>
+                    </li>
+                    <li class="box">
+                        <a href="noticias.html" class="link active box">Mais Informação</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Introdução ao Back-End</h2>
+                
+                <p><strong>&nbsp; &nbsp; &nbsp;O que é e sua Importância:</strong>
+                    O back-end é uma parte fundamental do desenvolvimento de <strong>aplicações web e de sistemas em geral.</strong> Enquanto o front-end se refere à interface com a qual os usuários interagem diretamente, o back-end diz respeito à lógica, ao armazenamento de dados e à comunicação entre o servidor e o cliente. Em termos simples, o back-end é responsável por tudo o que acontece "<strong>nos bastidores</strong>", ou seja, por toda a infraestrutura que permite que os usuários façam ações, como salvar informações, acessar dados e realizar transações, sem que isso seja visível diretamente na interface.Ao contrário do front-end, que lida com a apresentação visual, <strong>o back-end lida com o processamento dos dados, a segurança, a lógica de negócios, a interação com bancos de dados e a comunicação entre servidores</strong> e <strong>APIs.</strong> Portanto, o back-end é essencial para garantir que as operações e funcionalidades da aplicação aconteçam de forma correta e eficiente.</p>
+            </article>
+            <article>
+                <h2>Principais Componentes do Back-End</h2>
+                <p>&nbsp; &nbsp; &nbsp;O desenvolvimento back-end envolve várias tecnologias e componentes. A seguir, vamos explorar os elementos principais que fazem parte do back-end:
+                    <strong>Servidor:</strong> O servidor é a máquina que hospeda a aplicação e a torna acessível na web. Ele processa as requisições feitas pelos usuários e responde com os dados necessários ou executa ações no banco de dados. Servidores podem ser físicos ou virtuais (como os serviços de nuvem).
+
+                    <strong>Linguagens de Programação:</strong> As linguagens de programação de back-end são usadas para escrever a lógica de aplicação, manipular dados e interagir com o banco de dados. Algumas das linguagens mais populares para o desenvolvimento de back-end incluem:
+
+                    <strong>JavaScript (Node.js):</strong> Apesar de ser mais conhecido como <strong>linguagem de front-end, o JavaScript</strong> pode ser usado no back-end com a plataforma <strong>Node.js,</strong> que permite rodar JavaScript no servidor.
+                    <strong>Python:</strong> Linguagem <strong>versátil, simples e poderosa,</strong> muito utilizada em <strong>frameworks como Django e Flask.</strong>
+                    <strong>Ruby:</strong> Ruby é a linguagem usada no popular framework <strong>Ruby on Rails.</strong>
+                    <strong>Java</strong>: Linguagem robusta e popular para sistemas <strong>corporativos,</strong> utilizada com <strong>frameworks</strong> como<strong> Spring.</strong>
+                    <strong>PHP:</strong> Linguagem de script usada para <strong>desenvolver sites dinâmicos</strong>, muito popular em plataformas como <strong>WordPress.</strong><br>
+                    <strong>C#: Usada com o .NET Framework para o desenvolvimento de aplicativos de grande escala, frequentemente em ambientes corporativos.</strong><br>
+                    <strong>Banco de Dados:</strong> O banco de dados é onde os dados da aplicação são armazenados. Existem dois tipos principais de banco de dados:
+
+                    <strong>Relacional (SQL):</strong> Bancos de dados como <strong>MySQL, PostgreSQL, e SQL</strong> Server armazenam dados em tabelas e utilizam a linguagem SQL (<strong>Structured Query Language</strong>) para consultas e manipulação de dados.
+                    <strong>Não Relacional (NoSQL):</strong> Bancos como <strong>MongoDB, Cassandra e CouchDB</strong> são usados para armazenar dados de forma mais flexível, sem a rigidez das tabelas de um banco relacional. Eles são frequentemente usados para aplicações com grandes volumes de dados não estruturados.
+                    <strong>APIs (Application Programming Interfaces):</strong> Uma API é um conjunto de regras e definições que permitem que um sistema interaja com outro. No contexto do back-end, as APIs são utilizadas para permitir que diferentes sistemas (<strong>como o front-end e o banco de dados</strong>) se comuniquem entre si. As APIs RESTful são as mais comuns, onde as requisições HTTP (<strong>GET, POST, PUT, DELETE</strong>) são usadas para interagir com os dados.
+
+                    <strong>Autenticação e Autorização:</strong> O back-end também é responsável por garantir que os usuários sejam devidamente autenticados e autorizados a acessar recursos específicos. Isso envolve o uso de sistemas de login e senhas, OAuth, JWT (<strong>JSON Web Tokens</strong>), ou sistemas de autenticação social (<strong>como login com Google ou Facebook</strong>).
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
+</html>
